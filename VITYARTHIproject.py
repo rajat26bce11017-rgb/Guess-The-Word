@@ -1,19 +1,25 @@
 import random
 
 # Words aur unke hints ki simple list
-words = ["Python", "computer", "keyboard", "variable", "internet", "program"]
+
+words = ["Python", "computer", "keyboard", "variable", "internet", "program","True","print","Apple",
+"Chair"]
 hints = [
     "A popular coding language",
     "An electronic machine",
     "Used for typing",
     "Used to store data in code",
     "Global network of computers",
-    "Set of instructions for computer",]
+    "Set of instructions for computer",
+    "One of the python's two boolean values",
+    "The function used to display output on the screen ",
+    "it is related to newton's law of gravity",
+    "it has four legs but neither walk "]
 
 
-print("****************************************")
+print("                                         ")
 print("       WELCOME TO WORD GUESS GAME       ")
-print("****************************************")
+print("                                         ")
 print("Rules:")
 print("1. Guess the correct word.")
 print("2. You have 3 chances for each word.")
@@ -62,7 +68,8 @@ for i in range(len(words)):
         print("Out of chances! Correct word was:", original_word.upper())
         print("----------------------------------------\n")
 
-print("\n========================================")
+print("\n                                       ")
 print("              GAME OVER                 ")
+print("                                         ")
 print("Final Score:", score)
-print("========================================")
+print("                                         ")
